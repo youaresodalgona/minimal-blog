@@ -1,6 +1,6 @@
 ---
 title: 'Laravel 예외 처리 전략 1편'
-description: '나는 개발을 할 때 크게 예외를 둘로 나눈다.비즈니스 예외란, 비즈니스 규칙/조건을 위반하는 경우에 발생하는 예외다. (ex. 중복 주문, 유효하지 않은 상태)시스템/기술적 예외는 비즈니스 예외를 제외한 나머지 예외들로 보통 다음 목록과 같지만, 요구사항에 따라 비즈니'
+description: 'PHPStorm Checked Exception 활용하기'
 pubDate: 'Jul 31 2025'
 tags: ['Checked Exception', 'exception', 'laravel', 'php', 'phpstorm']
 ---
