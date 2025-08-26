@@ -12,10 +12,10 @@ type Config = {
 }
 
 export default {
-  author: 'Samuel Breznjak',
-  title: 'Minimal - Astro blog theme',
-  description: 'Minimalistic blog theme for astro',
-  lang: 'en',
+  author: 'YouAreSoDalgona',
+  title: 'YouAreSoDalgona 개발 블로그',
+  description: 'YouAreSoDalgona님이 작성한 포스트 시리즈들을 확인해보세요.',
+  lang: 'ko',
   themes: {
     dark: 'github-dark',
     light: 'github-light'

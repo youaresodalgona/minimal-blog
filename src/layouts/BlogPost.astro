@@ -3,6 +3,7 @@ import '@/global.css'
 
 import Base from '@/layouts/Base.astro'
 import PostInfo from '@/components/PostInfo.astro'
+import Giscus from '@/components/Giscus.tsx'
 
 const { frontmatter } = Astro.props
 ---
@@ -18,6 +19,18 @@ const { frontmatter } = Astro.props
       tags={frontmatter.tags}
     />
     <slot />
+
+    <div class="mt-16 border-t border-gray-200 pt-8 dark:border-gray-700">
+      <Giscus
+        client:load
+        mapping="pathname"
+        reactionsEnabled={true}
+        emitMetadata={false}
+        inputPosition="bottom"
+        theme="preferred_color_scheme"
+        lang="ko"
+      />
+    </div>
   </div>
 </Base>
 
