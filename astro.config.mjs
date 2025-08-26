@@ -24,5 +24,5 @@ export default defineConfig({
     mdx(),
     react()
   ],
-  site: 'https://youaresodalgona.netlify.app/'
+  site: 'https://youaresodalgona.dev/'
 })
