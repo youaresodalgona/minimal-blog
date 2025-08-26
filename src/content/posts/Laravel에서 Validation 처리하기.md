@@ -5,7 +5,7 @@ pubDate: 'May 21 2025'
 tags: ['laravel', 'php', 'validation']
 ---
 
-이전에 작성한 [Laravel HTTP Request를 DTO로 만들기](https://velog.io/@yenaryenar/Laravel-HTTP-Request%EB%A5%BC-DTO%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0)를 먼저 참고해 주세요.
+이전에 작성한 [Laravel HTTP Request를 DTO로 만들기](/laravel-http-request를-dto로-만들기)를 먼저 참고해 주세요.
 
 ## Laravel FormRequest
 
