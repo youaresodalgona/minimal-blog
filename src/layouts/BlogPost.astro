@@ -6,6 +6,13 @@ import PostInfo from '@/components/PostInfo.astro'
 import Giscus from '@/components/Giscus.tsx'
 
 const { frontmatter } = Astro.props
+
+const giscusConfig = {
+  repo: import.meta.env.GISCUS_REPO,
+  repoId: import.meta.env.GISCUS_REPO_ID,
+  category: import.meta.env.GISCUS_CATEGORY,
+  categoryId: import.meta.env.GISCUS_CATEGORY_ID
+}
 ---
 
 <Base meta={{ title: frontmatter.title }}>
@@ -23,6 +30,10 @@ const { frontmatter } = Astro.props
     <div class="mt-16 border-t border-gray-200 pt-8 dark:border-gray-700">
       <Giscus
         client:load
+        repo={giscusConfig.repo}
+        repoId={giscusConfig.repoId}
+        category={giscusConfig.category}
+        categoryId={giscusConfig.categoryId}
         mapping="pathname"
         reactionsEnabled={true}
         emitMetadata={false}

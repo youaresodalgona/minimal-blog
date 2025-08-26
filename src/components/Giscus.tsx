@@ -1,10 +1,10 @@
 import { useEffect } from 'react'
 
 interface GiscusProps {
-  repo?: string
-  repoId?: string
-  category?: string
-  categoryId?: string
+  repo: string
+  repoId: string
+  category: string
+  categoryId: string
   mapping?: string
   term?: string
   strict?: boolean
@@ -16,10 +16,10 @@ interface GiscusProps {
 }
 
 export default function Giscus({
-  repo = import.meta.env.GISCUS_REPO,
-  repoId = import.meta.env.GISCUS_REPO_ID,
-  category = import.meta.env.GISCUS_CATEGORY,
-  categoryId = import.meta.env.GISCUS_CATEGORY_ID,
+  repo,
+  repoId,
+  category,
+  categoryId,
   mapping = 'pathname',
   term = '',
   strict = false,
